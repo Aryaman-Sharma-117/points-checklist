@@ -1,0 +1,94 @@
+/* Login Container */
+.login-container {
+    display: flex;
+    justify-content: center; /* Center the login box horizontally */
+    align-items: center; /* Center the login box vertically */
+    min-height: 100vh; /* Full viewport height */
+    background-color: #1a1a1a; /* Very dark grey background */
+    padding: 20px;
+  }
+  
+  /* Login Box */
+  .login-box {
+    background-color: #2d2d2d; /* Dark grey background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    border: 1px solid #444; /* Subtle border for depth */
+    width: 100%;
+    max-width: 400px; /* Limit the width for better readability */
+  }
+  
+  /* Login Title */
+  .login-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e0e0e0; /* Light grey text */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Login Form */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between form elements */
+  }
+  
+  /* Form Group */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Space between label and input */
+  }
+  
+  /* Form Label */
+  .form-label {
+    font-size: 14px;
+    color: #e0e0e0; /* Light grey text */
+    font-weight: bold;
+  }
+  
+  /* Form Input */
+  .form-input {
+    padding: 10px;
+    border: 1px solid #555; /* Dark grey border */
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #1a1a1a; /* Very dark grey background */
+    color: #e0e0e0; /* Light grey text */
+  }
+  
+  .form-input:focus {
+    border-color: #777; /* Lighter grey border on focus */
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.1); /* Subtle glow on focus */
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: #ff6b6b; /* Soft red for error messages */
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Login Button */
+  .login-button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #444; /* Dark grey background */
+    color: #e0e0e0; /* Light grey text */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .login-button:hover {
+    background-color: #555; /* Slightly lighter grey on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }

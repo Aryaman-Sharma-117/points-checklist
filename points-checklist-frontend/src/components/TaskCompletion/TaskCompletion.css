@@ -1,0 +1,119 @@
+/* Task Completion Modal Overlay */
+.task-completion-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Darker semi-transparent background */
+  display: flex;
+  justify-content: center; /* Center the modal horizontally */
+  align-items: center; /* Center the modal vertically */
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+/* Task Completion Modal */
+.task-completion-modal {
+  background-color: #2d2d2d; /* Dark grey background */
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%; /* Responsive width */
+  max-width: 400px; /* Limit the modal width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  border: 1px solid #444; /* Subtle border for depth */
+}
+
+/* Task Completion Modal Heading */
+.task-completion-modal-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e0e0e0; /* Light grey text */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Task Completion Form */
+.task-completion-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between form elements */
+}
+
+/* Task Completion Form Label */
+.task-completion-form-label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Space between label and input */
+  font-size: 14px;
+  color: #e0e0e0; /* Light grey text */
+}
+
+/* Task Completion Input */
+.task-completion-input,
+.task-completion-textarea {
+  padding: 10px;
+  border: 1px solid #555; /* Dark grey border */
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #1a1a1a; /* Very dark grey background */
+  color: #e0e0e0; /* Light grey text */
+}
+
+.task-completion-input:focus,
+.task-completion-textarea:focus {
+  border-color: #777; /* Lighter grey border on focus */
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.1); /* Subtle glow on focus */
+}
+
+/* Task Completion Textarea */
+.task-completion-textarea {
+  resize: vertical; /* Allow vertical resizing */
+  min-height: 100px; /* Set a minimum height */
+}
+
+/* Task Completion Modal Buttons */
+.task-completion-modal-buttons {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+  justify-content: flex-end; /* Align buttons to the right */
+}
+
+/* Task Completion Submit Button */
+.task-completion-submit-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #444; /* Dark grey background */
+  color: #e0e0e0; /* Light grey text */
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.task-completion-submit-button:hover {
+  background-color: #555; /* Slightly lighter grey on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+/* Task Completion Cancel Button */
+.task-completion-cancel-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #555; /* Dark grey background */
+  color: #e0e0e0; /* Light grey text */
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.task-completion-cancel-button:hover {
+  background-color: #666; /* Slightly lighter grey on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}

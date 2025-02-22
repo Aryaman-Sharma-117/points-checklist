@@ -1,0 +1,67 @@
+/* Task List Container */
+.task-list-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #2d2d2d; /* Dark grey background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  border: 1px solid #444; /* Subtle border for depth */
+}
+/* Task List Table */
+.task-list-table {
+  width: 100%; /* Make the table full width */
+  border-collapse: collapse; /* Remove gaps between cells */
+}
+
+/* Table Header */
+.task-list-table thead {
+  background-color: #333; /* Dark grey background for header */
+  color: #e0e0e0; /* Light grey text */
+}
+
+.task-list-table th {
+  padding: 12px;
+  text-align: left; /* Left-align header text */
+  vertical-align: middle; /* Center header text vertically */
+  border-bottom: 2px solid #444; /* Dark grey border for header */
+}
+
+/* First Column (Date) */
+.task-list-table th:first-child,
+.task-list-table td:first-child {
+  width: 70%; /* Give maximum width to the first column */
+  text-align: left; /* Left-align first column content */
+}
+
+/* Other Columns */
+.task-list-table th:not(:first-child),
+.task-list-table td:not(:first-child) {
+  width: auto; /* Let other columns take up only the space they need */
+  white-space: nowrap; /* Prevent text wrapping */
+  text-align: center; /* Center content horizontally */
+  vertical-align: middle; /* Center content vertically */
+}
+
+/* Table Rows */
+.task-list-table tbody tr {
+  border-bottom: 1px solid #444; /* Dark grey border between rows */
+}
+
+.task-list-table tbody tr:hover {
+  background-color: #333; /* Slightly lighter grey on hover */
+}
+
+.task-list-table td {
+  padding: 12px; /* Match the padding of the header */
+  color: #e0e0e0; /* Light grey text */
+}
+
+/* Task List Empty Message */
+.task-list-empty-message {
+  text-align: center;
+  color: #b0b0b0; /* Medium grey text */
+  font-style: italic;
+  margin-top: 20px;
+}

@@ -1,0 +1,62 @@
+/* Meal Logs Container */
+.meal-logs-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2d2d2d; /* Dark grey background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    border: 1px solid #444; /* Subtle border for depth */
+  }
+  
+  /* Meal Logs Heading */
+  .meal-logs-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e0e0e0; /* Light grey text */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Meal Logs Table */
+  .meal-logs-table {
+    width: 100%;
+    border-collapse: collapse; /* Remove gaps between cells */
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  /* Table Header */
+  .meal-logs-table-header {
+    background-color: #333; /* Dark grey background */
+    color: #e0e0e0; /* Light grey text */
+  }
+  
+  .meal-logs-table-header th {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Table Body */
+  .meal-logs-table-body tr {
+    border-bottom: 1px solid #444; /* Dark grey border between rows */
+  }
+  
+  .meal-logs-table-body tr:hover {
+    background-color: #333; /* Slightly lighter grey on hover */
+  }
+  
+  .meal-logs-table-body td {
+    padding: 12px;
+    text-align: left;
+    color: #e0e0e0; /* Light grey text */
+  }
+  
+  /* Empty Message */
+  .meal-logs-empty-message {
+    text-align: center;
+    color: #b0b0b0; /* Medium grey text */
+    font-style: italic;
+    margin-top: 20px;
+  }

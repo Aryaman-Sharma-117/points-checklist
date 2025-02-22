@@ -1,0 +1,146 @@
+/* User Page Container */
+.user-page-container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1a1a1a; /* Very dark grey background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    border: 1px solid #444; /* Subtle border for depth */
+  }
+  
+  /* User Page Navigation */
+  .user-page-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #2d2d2d; /* Dark grey background */
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .user-page-nav-link {
+    text-decoration: none;
+    color: #e0e0e0; /* Light grey text */
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  .user-page-nav-link:hover {
+    color: #ffffff; /* Pure white on hover */
+    transform: scale(1.1); /* Slight scale up on hover */
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.3); /* Subtle glow on hover */
+  }
+  
+  .user-page-nav-separator {
+    margin: 0 10px;
+    color: #b0b0b0; /* Medium grey for the separator */
+  }
+  
+  /* User Page Content */
+  .user-page-content {
+    padding: 20px;
+  }
+  
+  /* User Page Name */
+  .user-page-name {
+    font-size: 48px;
+    font-weight: bold;
+    color: #e0e0e0; /* Light grey text */
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.2); /* Subtle glow */
+  }
+  
+  /* User Page Stats */
+  .user-page-stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #e0e0e0; /* Light grey text */
+  }
+  
+  .user-page-stat-icon {
+    margin-right: 8px; /* Space between icon and text */
+    vertical-align: middle; /* Align icons with text */
+    color: #e0e0e0; /* Light grey icon color */
+  }
+  
+  /* User Page Add Meal Button */
+  .user-page-add-meal-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #444; /* Dark grey background */
+    color: #e0e0e0; /* Light grey text */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    display: block;
+    margin: 0 auto 20px auto;
+  }
+  
+  .user-page-add-meal-button:hover {
+    background-color: #555; /* Slightly lighter grey on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }
+  
+  /* User Page Section Heading */
+  .user-page-section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e0e0e0; /* Light grey text */
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #555; /* Medium grey border */
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* User Page Toggle Logs Container */
+  .user-page-toggle-logs-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* User Page Toggle Logs Button */
+  .user-page-toggle-logs-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #444; /* Dark grey background */
+    color: #e0e0e0; /* Light grey text */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .user-page-toggle-logs-button:hover {
+    background-color: #555; /* Slightly lighter grey on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }
+
+/* Add Task Form Container */
+.add-task-form-container {
+  width: 100%; /* Full width */
+  margin-bottom: 20px; /* Space below the form */
+}
+
+/* Task List Container */
+.task-list-container {
+  width: 100%; /* Full width */
+}
+
+
+

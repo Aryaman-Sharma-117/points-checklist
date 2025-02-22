@@ -1,0 +1,99 @@
+/* Task History Table */
+.task-history-table {
+    width: 100%;
+    border-collapse: collapse; /* Remove gaps between cells */
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  /* Task History Row */
+  .task-history-row {
+    background-color: #2d2d2d; /* Dark grey background */
+    border-bottom: 1px solid #444; /* Dark grey border between rows */
+    transition: background-color 0.3s ease;
+  }
+  
+  .task-history-row:hover {
+    background-color: #333; /* Slightly lighter grey on hover */
+  }
+  
+  /* Task History Error Message */
+  .task-history-error-message {
+    color: #ff6b6b; /* Soft red for error messages */
+    font-size: 14px;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  /* Task History Name, Quantity, Points */
+  .task-history-name,
+  .task-history-quantity,
+  .task-history-points {
+    padding: 12px;
+    color: #e0e0e0; /* Light grey text */
+  }
+  
+  /* Task History Actions */
+.task-history-actions {
+  padding: 12px;
+  display: flex;
+  gap: 10px; /* Space between buttons */
+  justify-content: flex-end; /* Align buttons to the right */
+}
+  /* Task History Add Button */
+  .task-history-add-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #444; /* Dark grey background */
+    color: #e0e0e0; /* Light grey text */
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .task-history-add-button:hover {
+    background-color: #555; /* Slightly lighter grey on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }
+  
+  /* Task History Delete Button */
+  .task-history-delete-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #555; /* Dark grey background */
+    color: #e0e0e0; /* Light grey text */
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .task-history-delete-button:hover {
+    background-color: #666; /* Slightly lighter grey on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }
+  
+  /* Task History View Button */
+  .task-history-view-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333; /* Dark grey background */
+    color: #e0e0e0; /* Light grey text */
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from link */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .task-history-view-button:hover {
+    background-color: #444; /* Slightly lighter grey on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }

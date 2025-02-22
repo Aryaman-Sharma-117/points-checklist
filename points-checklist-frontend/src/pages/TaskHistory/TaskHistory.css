@@ -1,0 +1,127 @@
+/* Task Completion History Container */
+.task-completion-history-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2d2d2d; /* Dark grey background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    border: 1px solid #444; /* Subtle border for depth */
+  }
+  
+  /* Task Completion History Heading */
+  .task-completion-history-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e0e0e0; /* Light grey text */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Task Completion History Buttons */
+  .task-completion-history-buttons {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+    justify-content: center; /* Center buttons horizontally */
+    margin-bottom: 20px;
+  }
+  
+  /* Task Completion History Add Button */
+  .task-completion-history-add-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #444; /* Dark grey background */
+    color: #e0e0e0; /* Light grey text */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .task-completion-history-add-button:hover {
+    background-color: #555; /* Slightly lighter grey on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }
+  
+  /* Task Completion History Go Back Button */
+  .task-completion-history-go-back-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #555; /* Dark grey background */
+    color: #e0e0e0; /* Light grey text */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .task-completion-history-go-back-button:hover {
+    background-color: #666; /* Slightly lighter grey on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }
+  
+  /* Task Completion History Table */
+  .task-completion-history-table {
+    width: 100%;
+    border-collapse: collapse; /* Remove gaps between cells */
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  /* Task Completion History Table Header */
+  .task-completion-history-table-header {
+    background-color: #333; /* Dark grey background */
+    color: #e0e0e0; /* Light grey text */
+  }
+  
+  .task-completion-history-table-header th {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Task Completion History Table Body */
+  .task-completion-history-table-body tr {
+    border-bottom: 1px solid #444; /* Dark grey border between rows */
+  }
+  
+  .task-completion-history-table-body tr:hover {
+    background-color: #333; /* Slightly lighter grey on hover */
+  }
+  
+  .task-completion-history-table-body td {
+    padding: 12px;
+    text-align: left;
+    color: #e0e0e0; /* Light grey text */
+  }
+  
+  /* Task Completion History Delete Button */
+  .task-completion-history-delete-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #555; /* Dark grey background */
+    color: #e0e0e0; /* Light grey text */
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  .task-completion-history-delete-button:hover {
+    background-color: #666; /* Slightly lighter grey on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }
+  
+  /* Task Completion History Empty Message */
+  .task-completion-history-empty-message {
+    text-align: center;
+    color: #b0b0b0; /* Medium grey text */
+    font-style: italic;
+    margin-top: 20px;
+  }
