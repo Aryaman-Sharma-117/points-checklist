@@ -1,4 +1,4 @@
-const API_URL = 'https://points-checklist.onrender.com/';
+const API_URL = 'https://points-checklist.onrender.com/api';
 
 // Fetch tasks for a specific user
 export const fetchTasks = async (userId) => {
