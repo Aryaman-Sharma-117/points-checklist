@@ -29,6 +29,7 @@ function App() {
               </ProtectedRoute>
             }
           />
+          <Route path="*" element={<Link to="/login">Login</Link>} />
         </Routes>
       </div>
     </Router>
